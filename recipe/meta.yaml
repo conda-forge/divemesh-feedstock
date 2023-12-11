@@ -1,6 +1,6 @@
 {% set name = "divemesh" %}
-{% set version = "23.08" %}
-{% set sha256 = "d67c287793da9972e6d4a4dd0cc281816382ea325a308ef434522e8d71993ed4" %}
+{% set version = "23.11" %}
+{% set sha256 = "d26348927c6eccfcdeda85c076d5adf4cc92b7218d5fded6949cf0d91dba16c2" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   ignore_run_exports_from:
     - {{ compiler('cxx') }}  # [osx]
