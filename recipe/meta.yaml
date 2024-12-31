@@ -1,6 +1,6 @@
 {% set name = "divemesh" %}
-{% set version = "24.05" %}
-{% set sha256 = "f7b4486547fed8f8525beeaf75f230bbd1834cb9718bf6c546a76ff789729685" %}
+{% set version = "24.12" %}
+{% set sha256 = "e18a9f4da984c7b323c4336c381cebc127c9d1ab90b340b86d12f7a23bc4b5c3" %}
 
 package:
   name: {{ name }}
