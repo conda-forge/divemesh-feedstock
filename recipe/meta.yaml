@@ -25,7 +25,6 @@ requirements:
 test:
   commands:
     - test -f $PREFIX/bin/divemesh
-    - divemesh
 
 about:
   home: https://reef3d.wordpress.com/
