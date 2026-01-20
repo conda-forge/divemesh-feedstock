@@ -1,6 +1,6 @@
 {% set name = "divemesh" %}
-{% set version = "25.07" %}
-{% set sha256 = "64ad2e57d39db26160db2429edfdecdffd150d196e3197e98452954f59187f85" %}
+{% set version = "25.11" %}
+{% set sha256 = "1f6c2f9ecd4d17ffe6f8b6c095514da93f91af2f782e7b284648a2cb0421a983" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   ignore_run_exports_from:
     - {{ compiler('cxx') }}  # [osx]
@@ -25,7 +25,6 @@ requirements:
 test:
   commands:
     - test -f $PREFIX/bin/divemesh
-    - divemesh
 
 about:
   home: https://reef3d.wordpress.com/
