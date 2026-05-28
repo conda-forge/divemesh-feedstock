@@ -1,10 +1,10 @@
 {% set name = "divemesh" %}
-{% set version = "26.01" %}
-{% set sha256 = "d87586e4051ee8c527d619d646f27ed5298c0bf3a82a20c7ddd565e77c2e15b8" %}
+{% set version = "26.05" %}
+{% set sha256 = "917ec6d42d108742b9e6cc7c324be0d0509ce469b4fd20527326fd8098f22429" %}
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://github.com/REEF3D/DIVEMesh/archive/refs/tags/{{ version }}.tar.gz
